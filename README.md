@@ -1,3 +1,6 @@
-# jenkins-file
+Hey, let's see how to set up jenkins, configure various tools, build a pipeline out of it
 
-Hey everyone, this repo explains how jenkins is installed and how pipelines are built.
+# set up jenkins
+
+
+

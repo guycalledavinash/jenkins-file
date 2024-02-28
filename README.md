@@ -40,6 +40,13 @@ To check the status whether its running
 sudo systemctl status jenkins
 ```
 ![status](https://github.com/guycalledavinash/jenkins-file/assets/90386560/fe083089-64cd-4290-af0e-649cbfe9292a)
+Notice the end, it runs on port 8080, now let's allow the port in inbound traffic rules and access it
+Initially, install the suggested plugins
+![plugins](https://github.com/guycalledavinash/jenkins-file/assets/90386560/a5791a38-eb1f-4a69-8e01-7c6cf5966b18)
+Setup new username, password
+Done.
+
+
 
 
 

@@ -1,4 +1,4 @@
-Hey, let's see how to set up jenkins, configure various tools, build a pipeline out of it
+Hey, let's see how to set up jenkins, configure various tools, build a declarative pipeline out of it.
 
 # Preface
 Jenkins is an open source CI/CD tool with good plugin integration
@@ -69,7 +69,9 @@ ssh-keygen
 ```
 Copy that private key, paste in credentials tab on the jenkins server, this is for seamless authorization
 ![credentials](https://github.com/guycalledavinash/jenkins-file/assets/90386560/17b4b30d-4ae0-4f54-9b62-59d814e12322)
-Go with SSH with private key
+ Go with SSH with private key, choose root, paste private key
 ![ssh](https://github.com/guycalledavinash/jenkins-file/assets/90386560/63bb4130-7062-4c75-b1f7-eecd9cbf041a)
+Next is configuring the node. 
+![node](https://github.com/guycalledavinash/jenkins-file/assets/90386560/d2ba65d5-8cbf-49ae-8c60-fb953a73ebc7)
 
 

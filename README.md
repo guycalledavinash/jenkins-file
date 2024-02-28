@@ -11,8 +11,9 @@ sudo apt update
 sudo apt install default-jre
 java -version
 ```
-
 ![java installed](https://github.com/guycalledavinash/jenkins-file/assets/90386560/b82f38ba-7d15-4ac6-86df-915a453cf7a9)
+
+Install jenkins ![source](https://www.jenkins.io/doc/book/installing/linux/)
 
 
 

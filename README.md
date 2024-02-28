@@ -2,7 +2,9 @@ Hey, let's see how to set up jenkins, configure various tools, build a declarati
 
 # Preface
 Jenkins is an open source CI/CD tool with good plugin integration
+
 Runs on port 8080, enable this in security rules
+
 Java is a pre-requisite
 
 ## Set up Jenkins
@@ -40,19 +42,23 @@ To check the status whether its running
 sudo systemctl status jenkins
 ```
 ![status](https://github.com/guycalledavinash/jenkins-file/assets/90386560/fe083089-64cd-4290-af0e-649cbfe9292a)
-Notice the end, it runs on port 8080, now let's allow the port in inbound traffic rules and access it
+
+Notice the end, it runs on port 8080, allow the port in inbound traffic rules
+
 Initially, install the suggested plugins
+
 ![plugins](https://github.com/guycalledavinash/jenkins-file/assets/90386560/a5791a38-eb1f-4a69-8e01-7c6cf5966b18)
+
 Setup new username, password, Done.
 
 This is how the home page looks like:
 ![Home](https://github.com/guycalledavinash/jenkins-file/assets/90386560/508d118f-32f6-4168-a77c-2b65484c9ac1)
 
-This is the 'Manage Jenkins', tab where we can edit, configure, install tools, etc
+This is the 'Manage Jenkins', tab where we edit, configure, install tools, etc
 ![manage](https://github.com/guycalledavinash/jenkins-file/assets/90386560/6592db24-940f-4dfb-bd2c-2a5d598a319c)
 
 ## Plugin download and configure
-We can download the required plugins, confgure them in global tools
+We can download the required plugins, confgure them in global tools.
 
 
 

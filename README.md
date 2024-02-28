@@ -51,27 +51,8 @@ This is how the home page looks like:
 This is the 'Manage Jenkins', tab where we can edit, configure, install tools, etc
 ![manage](https://github.com/guycalledavinash/jenkins-file/assets/90386560/6592db24-940f-4dfb-bd2c-2a5d598a319c)
 
-## Let's configure a VM as a slave
-Switch to root and give permissions so that jenkins integration happens seamlessly 
-```
-sudo su
-```
-or switch back to normal user:
-```
-su ubuntu
-```
-create folder, give permissions, generate private and public keys:
-```
-sudo su
-mkdir jenkins-slave
-chmod 755 jenkins-slave
-ssh-keygen
-```
-Copy that private key, paste in credentials tab on the jenkins server, this is for seamless authorization
-![credentials](https://github.com/guycalledavinash/jenkins-file/assets/90386560/17b4b30d-4ae0-4f54-9b62-59d814e12322)
- Go with SSH with private key, choose root, paste private key
-![ssh](https://github.com/guycalledavinash/jenkins-file/assets/90386560/63bb4130-7062-4c75-b1f7-eecd9cbf041a)
-Next is configuring the node. 
-![node](https://github.com/guycalledavinash/jenkins-file/assets/90386560/d2ba65d5-8cbf-49ae-8c60-fb953a73ebc7)
+## Plugin download and configure
+We can download the required plugins, confgure them in global tools
+
 
 

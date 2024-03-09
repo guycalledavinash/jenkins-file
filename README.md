@@ -89,4 +89,4 @@ For Tomcat deployement, use `ssh-agent` plugin which acts as a median between tw
 
 Makesure to use pipeline syntax feature everytime to generate a declarative pipeline. 
 
-Take a look at the above jenkins file ![Jenkinsfile](https://github.com/guycalledavinash/jenkins-file/blob/main/Jenkinsfile)
+Take a look at the above ![Jenkinsfile](https://github.com/guycalledavinash/jenkins-file/blob/main/Jenkinsfile) for declarative pipeline syntax

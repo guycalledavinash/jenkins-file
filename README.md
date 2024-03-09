@@ -3,7 +3,7 @@ Hey, let's see how to set up jenkins, configure various tools, build a declarati
 # Preface
 Jenkins is an open source CI/CD tool with good plugin integration
 
-To run an end-to-end CI/CD pipeline, one should set up other tools like [Maven](https://github.com/guycalledavinash/maven), [Sonarqube](https://github.com/guycalledavinash/sonarqube), [Nexus](https://github.com/guycalledavinash/nexus-repository), [Apache Tomcat](https://github.com/guycalledavinash/apache-tomcat)
+To run an end-to-end CI/CD pipeline, one should set up other tools like [Maven](https://github.com/guycalledavinash/maven), [Sonarqube](https://github.com/guycalledavinash/sonarqube), [Nexus](https://github.com/guycalledavinash/nexus-repository), [Apache Tomcat](https://github.com/guycalledavinash/apache-tomcat).
 
 ## Set up Jenkins
 ```

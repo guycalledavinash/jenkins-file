@@ -1,11 +1,9 @@
-Hey, let's see how to set up jenkins, configure various tools, build a declarative pipeline out of it.
+Hey, let's see how to set up jenkins, configure various tools, build a declarative pipeline out of them.
 
 # Preface
 Jenkins is an open source CI/CD tool with good plugin integration
 
-Runs on port 8080, enable this in security rules
-
-Java is a pre-requisite
+To run an end-to-end CI/CD pipeline, one should set up other tools like [Maven](https://github.com/guycalledavinash/maven), [Sonarqube](https://github.com/guycalledavinash/sonarqube), [Nexus](https://github.com/guycalledavinash/nexus-repository), [Apache Tomcat](https://github.com/guycalledavinash/apache-tomcat)
 
 ## Set up Jenkins
 ```
@@ -43,7 +41,7 @@ sudo systemctl status jenkins
 ```
 ![status](https://github.com/guycalledavinash/jenkins-file/assets/90386560/fe083089-64cd-4290-af0e-649cbfe9292a)
 
-Notice the end, it runs on port 8080, allow the port in inbound traffic rules
+It runs on port 8080, enable it in the traffic rules
 
 Initially, install the suggested plugins
 
@@ -57,8 +55,11 @@ This is how the home page looks like:
 This is the 'Manage Jenkins', tab where we edit, configure, install tools, etc
 ![manage](https://github.com/guycalledavinash/jenkins-file/assets/90386560/6592db24-940f-4dfb-bd2c-2a5d598a319c)
 
-## Plugin download and configure
-We can download the required plugins, confgure them in global tools.
+The required plugins can be downloaded and confgured in global tools configuration
+
+## End to End CI/CD Project
+
+
 
 
 
